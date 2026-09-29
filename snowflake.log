@@ -1,0 +1,213 @@
+{"level":"ERROR","message":"[10:37:59.430 AM]: Connection[id: 2339aa7f-4aca-406c-9859-34106bc98a30] - connection failed after 168817.5 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:37:59.436 AM]: Connection[id: 2339aa7f-4aca-406c-9859-34106bc98a30] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:37:59.437 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:44:11.694 AM]: Connection[id: f006dbb2-1bad-46fa-9bac-b10c9143c43d] - connection failed after 173519.16 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:44:11.695 AM]: Connection[id: f006dbb2-1bad-46fa-9bac-b10c9143c43d] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:44:11.696 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:45:04.043 AM]: Connection[id: 1e3a9d63-4413-4751-bd50-b7324167153d] - connection failed after 224796.72 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:45:04.045 AM]: Connection[id: 1e3a9d63-4413-4751-bd50-b7324167153d] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:45:04.046 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:45:04.653 AM]: Connection[id: 89c2a81d-6f2c-492f-89f1-5da116e18e9d] - connection failed after 214594.91 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:45:04.655 AM]: Connection[id: 89c2a81d-6f2c-492f-89f1-5da116e18e9d] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:45:04.655 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:23.623 AM]: Connection[id: 298dbb74-78d6-4260-af9d-70e02bff2d6d] - connection failed after 145144.4 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:23.624 AM]: Connection[id: 298dbb74-78d6-4260-af9d-70e02bff2d6d] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:23.625 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:30.401 AM]: Connection[id: b731c447-efb7-4d76-a5ec-766f3fb19522] - connection failed after 142697.31 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:30.403 AM]: Connection[id: b731c447-efb7-4d76-a5ec-766f3fb19522] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:30.403 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:41.311 AM]: Connection[id: 7aa88340-380e-44ee-90b7-bbd196dd2441] - connection failed after 162815.99 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:41.313 AM]: Connection[id: 7aa88340-380e-44ee-90b7-bbd196dd2441] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:41.313 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:43.288 AM]: Connection[id: de0d2ad3-4d0e-4078-844f-ed9307e4992a] - connection failed after 155599.03 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:43.289 AM]: Connection[id: de0d2ad3-4d0e-4078-844f-ed9307e4992a] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:43.289 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:55.804 AM]: Connection[id: 64a7123c-165d-4272-91ff-19dbbbc9dce6] - connection failed after 164098.08 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:55.805 AM]: Connection[id: 64a7123c-165d-4272-91ff-19dbbbc9dce6] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:48:55.806 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:16.278 AM]: Connection[id: 527db9b2-eac6-470f-bcfa-72ec5c6421cf] - connection failed after 101451.88 milliseconds. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:16.283 AM]: Connection[id: 527db9b2-eac6-470f-bcfa-72ec5c6421cf] - Unable to connect. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:16.285 AM]: Connection pool factory creation failed: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:16.790 AM]: Connection[id: 67888233-415a-4e49-90c2-27f9be9cc2f2] - connection failed after 98323.89 milliseconds. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:16.791 AM]: Connection[id: 67888233-415a-4e49-90c2-27f9be9cc2f2] - Unable to connect. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:16.792 AM]: Connection pool factory creation failed: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:26.940 AM]: Connection[id: 68f7beaf-8684-456c-92a5-caa357a4af96] - connection failed after 195215.85 milliseconds. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:26.941 AM]: Connection[id: 68f7beaf-8684-456c-92a5-caa357a4af96] - Unable to connect. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:26.942 AM]: Connection pool factory creation failed: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:31.919 AM]: Connection[id: 03641b6b-552e-4e03-83b5-5467532ec2b1] - connection failed after 189037.1 milliseconds. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:31.920 AM]: Connection[id: 03641b6b-552e-4e03-83b5-5467532ec2b1] - Unable to connect. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:31.920 AM]: Connection pool factory creation failed: Request to Snowflake failed."}
+{"level":"ERROR","message":"[10:49:42.309 AM]: Connection[id: e5a79e93-3fd5-4b38-9838-b9e1cb37cb07] - connection failed after 199443.41 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:42.310 AM]: Connection[id: e5a79e93-3fd5-4b38-9838-b9e1cb37cb07] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:42.310 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:50.400 AM]: Connection[id: 78ebfacb-47a1-46e4-8c7f-5c23081ee2f3] - connection failed after 186284.54 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:50.401 AM]: Connection[id: 78ebfacb-47a1-46e4-8c7f-5c23081ee2f3] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:50.401 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:55.792 AM]: Connection[id: 13a357f6-5750-4287-9247-ab994c0f794e] - connection failed after 137253.39 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:55.793 AM]: Connection[id: 13a357f6-5750-4287-9247-ab994c0f794e] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:49:55.794 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:58:28.096 AM]: Connection[id: 873ae9c4-5f8b-42bf-8f88-4b25e8f7d826] - connection failed after 113110.36 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:58:28.098 AM]: Connection[id: 873ae9c4-5f8b-42bf-8f88-4b25e8f7d826] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:58:28.098 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:31.631 AM]: Connection[id: 2b1f3b60-d2f8-420f-a16d-b83cdc0a5a8a] - connection failed after 173743.48 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:31.632 AM]: Connection[id: 2b1f3b60-d2f8-420f-a16d-b83cdc0a5a8a] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:31.632 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:33.248 AM]: Connection[id: 4b240b52-c724-437e-9efc-5da0e53d4ef6] - connection failed after 182638.94 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:33.249 AM]: Connection[id: 4b240b52-c724-437e-9efc-5da0e53d4ef6] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:33.250 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:52.708 AM]: Connection[id: b2207d15-5c31-43f8-9455-32e2dbec8b35] - connection failed after 191183.77 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:52.708 AM]: Connection[id: b2207d15-5c31-43f8-9455-32e2dbec8b35] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:52.709 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:54.319 AM]: Connection[id: 9810755c-6d40-4ac3-a9a7-697d3eed692a] - connection failed after 192811.38 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:54.320 AM]: Connection[id: 9810755c-6d40-4ac3-a9a7-697d3eed692a] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[10:59:54.320 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:02:14.992 AM]: Connection[id: 24f07298-2a6f-47c6-bc81-c72da6f37727] - connection failed after 150695.44 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:02:14.995 AM]: Connection[id: 24f07298-2a6f-47c6-bc81-c72da6f37727] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:02:14.999 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:02:24.412 AM]: Connection[id: 32bd03c9-6522-4c99-ae6b-70164234351d] - connection failed after 160099.98 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:02:24.414 AM]: Connection[id: 32bd03c9-6522-4c99-ae6b-70164234351d] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:02:24.414 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:04:31.890 AM]: Connection[id: 68ae8173-35ae-4877-99d8-2769ac8f6d21] - connection failed after 201179.98 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:04:31.891 AM]: Connection[id: 68ae8173-35ae-4877-99d8-2769ac8f6d21] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:04:31.892 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:07:29.119 AM]: Connection[id: fabf33bb-8e4d-4f3c-a8b3-eff54b5a4d3a] - connection failed after 123459.52 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:07:29.120 AM]: Connection[id: fabf33bb-8e4d-4f3c-a8b3-eff54b5a4d3a] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:07:29.120 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:08:55.913 AM]: Connection[id: c0ebaa48-014b-4f31-9916-128421bc3c79] - connection failed after 210224.94 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:08:55.915 AM]: Connection[id: c0ebaa48-014b-4f31-9916-128421bc3c79] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:08:55.916 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:09:59.980 AM]: Connection[id: 590c6527-10b9-4616-8277-3e2e1eb9faf9] - connection failed after 110055.61 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:09:59.982 AM]: Connection[id: 590c6527-10b9-4616-8277-3e2e1eb9faf9] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:09:59.983 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:10:28.731 AM]: Connection[id: bf4f160b-dbe2-4fe7-bdfc-2eb1ca787515] - connection failed after 162379.27 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:10:28.732 AM]: Connection[id: bf4f160b-dbe2-4fe7-bdfc-2eb1ca787515] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:10:28.732 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:11:17.611 AM]: Connection[id: a7ba59ad-04f6-443b-aa07-a02e69cb176e] - connection failed after 187658.14 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:11:17.612 AM]: Connection[id: a7ba59ad-04f6-443b-aa07-a02e69cb176e] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:11:17.613 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:12:43.901 AM]: Connection[id: ceea90ff-7143-467d-ad6b-0a64521a8917] - connection failed after 193371.81 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:12:43.902 AM]: Connection[id: ceea90ff-7143-467d-ad6b-0a64521a8917] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:12:43.903 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:14:31.609 AM]: Connection[id: efef7f2d-4295-4db9-8b3d-4e0dd6e8392b] - connection failed after 209505.29 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:14:31.611 AM]: Connection[id: efef7f2d-4295-4db9-8b3d-4e0dd6e8392b] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:14:31.612 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:19:24.544 AM]: Connection[id: 8ad96b8a-6faa-41b7-9e17-4f81af625798] - connection failed after 148409.36 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:19:24.546 AM]: Connection[id: 8ad96b8a-6faa-41b7-9e17-4f81af625798] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:19:24.546 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:19:39.851 AM]: Connection[id: b7924481-5d2d-4f64-bb47-0401ead62227] - connection failed after 163773.49 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:19:39.852 AM]: Connection[id: b7924481-5d2d-4f64-bb47-0401ead62227] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:19:39.853 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:20:32.577 AM]: Connection[id: 2089f79c-d8eb-4254-a174-ca38cadfd4c4] - connection failed after 216565.73 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:20:32.579 AM]: Connection[id: 2089f79c-d8eb-4254-a174-ca38cadfd4c4] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:20:32.579 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:46:56.274 AM]: Connection[id: 93ba59a2-24e6-4865-afae-f01d22f18ea9] - connection failed after 156171.75 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:46:56.276 AM]: Connection[id: 93ba59a2-24e6-4865-afae-f01d22f18ea9] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:46:56.276 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:23.711 AM]: Connection[id: b4a4685d-4803-43bb-b7a6-8fd35059f8b6] - connection failed after 182770.02 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:23.713 AM]: Connection[id: b4a4685d-4803-43bb-b7a6-8fd35059f8b6] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:23.713 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:25.614 AM]: Connection[id: 7e533055-0d91-448c-b595-f8ba2e97c8ea] - connection failed after 169174.02 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:25.615 AM]: Connection[id: 7e533055-0d91-448c-b595-f8ba2e97c8ea] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:25.616 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:30.916 AM]: Connection[id: d1b216e1-ca97-406e-9d1f-5e8a08e306d6] - connection failed after 190861.07 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:30.918 AM]: Connection[id: d1b216e1-ca97-406e-9d1f-5e8a08e306d6] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:30.919 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:32.103 AM]: Connection[id: e65a0e47-7675-4e35-9b86-a4210a2d90a5] - connection failed after 191419.02 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:32.104 AM]: Connection[id: e65a0e47-7675-4e35-9b86-a4210a2d90a5] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:32.105 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:56.894 AM]: Connection[id: 68c3a266-dfbf-478b-9891-2d579fa9196b] - connection failed after 216010.39 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:56.895 AM]: Connection[id: 68c3a266-dfbf-478b-9891-2d579fa9196b] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:47:56.897 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:48:02.968 AM]: Connection[id: b4f92ffd-8f9d-41a0-bafb-850b3704a8c7] - connection failed after 222887.9 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:48:02.970 AM]: Connection[id: b4f92ffd-8f9d-41a0-bafb-850b3704a8c7] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:48:02.970 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:50:27.805 AM]: Connection[id: 963f7cd8-2943-411f-a396-60335794ee39] - connection failed after 73437.58 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:50:27.806 AM]: Connection[id: 963f7cd8-2943-411f-a396-60335794ee39] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:50:27.807 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:50:40.279 AM]: Connection[id: 168578b9-8626-422a-8444-9d9adb2d0f80] - connection failed after 85980.8 milliseconds. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[11:50:40.281 AM]: Connection[id: 168578b9-8626-422a-8444-9d9adb2d0f80] - Unable to connect. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[11:50:40.283 AM]: Connection pool factory creation failed: Request to Snowflake failed."}
+{"level":"ERROR","message":"[11:51:48.915 AM]: Connection[id: 341926b7-fde6-47b8-a6d2-567a359dc349] - connection failed after 154586.74 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:51:48.919 AM]: Connection[id: 341926b7-fde6-47b8-a6d2-567a359dc349] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[11:51:48.921 AM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:30:57.896 PM]: Connection[id: a4722e75-5254-44a2-9dce-189ad5c50b2c] - connection failed after 158570.56 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:30:57.899 PM]: Connection[id: a4722e75-5254-44a2-9dce-189ad5c50b2c] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:30:57.899 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:31:17.477 PM]: Connection[id: 7dc38eef-b64a-4931-9d40-7aafc302dea9] - connection failed after 177982.01 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:31:17.479 PM]: Connection[id: 7dc38eef-b64a-4931-9d40-7aafc302dea9] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:31:17.479 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:31:56.104 PM]: Connection[id: fb3d8b19-543c-4f23-970f-dbf3ea58f70b] - connection failed after 216692.34 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:31:56.106 PM]: Connection[id: fb3d8b19-543c-4f23-970f-dbf3ea58f70b] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:31:56.106 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:36:56.469 PM]: Connection[id: efbb4652-415b-418e-8711-4d1be2bdd1fb] - connection failed after 114162.05 milliseconds. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[1:36:56.470 PM]: Connection[id: efbb4652-415b-418e-8711-4d1be2bdd1fb] - Unable to connect. Error: Request to Snowflake failed."}
+{"level":"ERROR","message":"[1:36:56.470 PM]: Connection pool factory creation failed: Request to Snowflake failed."}
+{"level":"ERROR","message":"[1:37:04.531 PM]: Connection[id: f10a19c0-474a-4ca4-881b-8b4d4faf3142] - connection failed after 122259.32 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:37:04.532 PM]: Connection[id: f10a19c0-474a-4ca4-881b-8b4d4faf3142] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:37:04.532 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:38:19.985 PM]: Connection[id: c1e0d869-1747-4f64-aa3d-e402b41da094] - connection failed after 197694.64 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:38:19.989 PM]: Connection[id: c1e0d869-1747-4f64-aa3d-e402b41da094] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:38:19.990 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:45:42.302 PM]: Connection[id: b3b994e1-e4df-4f90-9801-0e39efb4aa2b] - connection failed after 168957.34 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:45:42.302 PM]: Connection[id: b3b994e1-e4df-4f90-9801-0e39efb4aa2b] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:45:42.303 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:13.819 PM]: Connection[id: 90799281-5646-4546-bce4-18c22c135fbf] - connection failed after 200457.25 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:13.820 PM]: Connection[id: 90799281-5646-4546-bce4-18c22c135fbf] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:13.820 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:48.136 PM]: Connection[id: 5698d26b-b48a-4486-9ec1-8aa9a54bc493] - connection failed after 234750.07 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:48.137 PM]: Connection[id: 5698d26b-b48a-4486-9ec1-8aa9a54bc493] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:48.138 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:56.874 PM]: Connection[id: bb1d7778-7b51-489d-a11f-0d47da4e00f5] - connection failed after 157485.67 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:56.875 PM]: Connection[id: bb1d7778-7b51-489d-a11f-0d47da4e00f5] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:46:56.876 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:47:00.752 PM]: Connection[id: 01e4826f-c007-4071-9f4d-9e54ce660e6b] - connection failed after 161345.24 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:47:00.753 PM]: Connection[id: 01e4826f-c007-4071-9f4d-9e54ce660e6b] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:47:00.753 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:47:44.111 PM]: Connection[id: 6af6585b-bdf9-4b02-b090-c6a7e63bb788] - connection failed after 204757.49 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:47:44.112 PM]: Connection[id: 6af6585b-bdf9-4b02-b090-c6a7e63bb788] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[1:47:44.112 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:31.350 PM]: Connection[id: c0a903b9-e367-4fdb-bf76-1c775738345f] - connection failed after 178042.69 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:31.351 PM]: Connection[id: c0a903b9-e367-4fdb-bf76-1c775738345f] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:31.352 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:39.467 PM]: Connection[id: 8a9a0897-d9cc-4f04-964d-dc0dd68fb93f] - connection failed after 146743.98 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:39.470 PM]: Connection[id: 8a9a0897-d9cc-4f04-964d-dc0dd68fb93f] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:39.472 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:49.032 PM]: Connection[id: 3a393339-bc52-4cde-94b8-534a584f148a] - connection failed after 156334.41 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:49.033 PM]: Connection[id: 3a393339-bc52-4cde-94b8-534a584f148a] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:49.034 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:55.607 PM]: Connection[id: 48f7f4e3-54a9-44a8-9268-a05acb8ae632] - connection failed after 162862.46 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:55.608 PM]: Connection[id: 48f7f4e3-54a9-44a8-9268-a05acb8ae632] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:55.609 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:58.116 PM]: Connection[id: 55e1c488-9fb9-4ab9-8878-bd9a5cb08544] - connection failed after 204852.42 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:58.118 PM]: Connection[id: 55e1c488-9fb9-4ab9-8878-bd9a5cb08544] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:14:58.119 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:15:04.576 PM]: Connection[id: 96c40afb-b2d2-48e8-945c-7a9008aecffe] - connection failed after 211292.3 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:15:04.578 PM]: Connection[id: 96c40afb-b2d2-48e8-945c-7a9008aecffe] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:15:04.579 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:24:59.229 PM]: Connection[id: b9758c32-7a51-4b18-a5df-3b9a9dfc558f] - connection failed after 138686.28 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:24:59.230 PM]: Connection[id: b9758c32-7a51-4b18-a5df-3b9a9dfc558f] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:24:59.231 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:06.030 PM]: Connection[id: cba95f40-06ae-476d-8348-1a5c9214a663] - connection failed after 146219.26 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:06.031 PM]: Connection[id: cba95f40-06ae-476d-8348-1a5c9214a663] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:06.032 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:17.295 PM]: Connection[id: 2692c47c-e630-4b11-996c-bb1429b4ce89] - connection failed after 142944.9 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:17.296 PM]: Connection[id: 2692c47c-e630-4b11-996c-bb1429b4ce89] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:17.296 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:25.951 PM]: Connection[id: 599b8e0d-1547-43ec-a8ed-1bfbaced2421] - connection failed after 165461.36 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:25.953 PM]: Connection[id: 599b8e0d-1547-43ec-a8ed-1bfbaced2421] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:25.953 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:28.039 PM]: Connection[id: f1c9dade-49ef-402b-b95b-11823e9cae62] - connection failed after 168281.1 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:28.040 PM]: Connection[id: f1c9dade-49ef-402b-b95b-11823e9cae62] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:28.040 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:31.239 PM]: Connection[id: a64a4ad4-23a8-43ba-bf3e-0f23eda5e4cb] - connection failed after 171450.3 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:31.240 PM]: Connection[id: a64a4ad4-23a8-43ba-bf3e-0f23eda5e4cb] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:25:31.241 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:14.608 PM]: Connection[id: e62b780f-69d9-4056-bf4c-691e3156ed4d] - connection failed after 214080.89 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:14.623 PM]: Connection[id: e62b780f-69d9-4056-bf4c-691e3156ed4d] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:14.639 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:19.607 PM]: Connection[id: b7e7f102-287e-40be-9a14-28ea8f8d25cf] - connection failed after 205203.12 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:19.609 PM]: Connection[id: b7e7f102-287e-40be-9a14-28ea8f8d25cf] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:19.610 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:44.393 PM]: Connection[id: f1d175e2-06cf-46d0-b5b8-ff4a868db387] - connection failed after 230013.77 milliseconds. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:44.395 PM]: Connection[id: f1d175e2-06cf-46d0-b5b8-ff4a868db387] - Unable to connect. Error: Network error. Could not reach Snowflake."}
+{"level":"ERROR","message":"[2:26:44.395 PM]: Connection pool factory creation failed: Network error. Could not reach Snowflake."}
