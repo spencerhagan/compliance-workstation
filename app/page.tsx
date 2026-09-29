@@ -82,12 +82,16 @@ export default function Home() {
 
   const { data: accountInfo } = useQuery({
     queryKey: ["account-info"],
-    queryFn: () => fetch("/api/account-info").then((r) => r.json()),
+    queryFn: () => fetch("/api/account-info").then((r) => { if (!r.ok) throw new Error(); return r.json() }),
+    retry: 10,
+    retryDelay: 3000,
   })
 
-  const { data: reviewLog } = useQuery({
+  const { data: reviewLog, isLoading: reviewLogLoading } = useQuery({
     queryKey: ["review-log"],
-    queryFn: () => fetch("/api/review/log").then((r) => r.json()).catch(() => ({ data: [] })),
+    queryFn: () => fetch("/api/review/log").then((r) => { if (!r.ok) throw new Error(); return r.json() }),
+    retry: 10,
+    retryDelay: 3000,
   })
 
   return (
@@ -127,17 +131,17 @@ export default function Home() {
         )}
 
         {activeSection === "dashboard" && (
-          <DashboardView reviewLog={reviewLog?.data || []} />
+          <DashboardView reviewLog={reviewLog?.data || []} loading={reviewLogLoading} />
         )}
         {activeSection === "audit-export" && <AuditExportView />}
-        {activeSection === "review-log" && <ReviewLogView reviewLog={reviewLog?.data || []} />}
+        {activeSection === "review-log" && <ReviewLogView reviewLog={reviewLog?.data || []} loading={reviewLogLoading} />}
         {activeSection === "settings" && <SettingsView />}
       </div>
     </main>
   )
 }
 
-function DashboardView({ reviewLog }: { reviewLog: any[] }) {
+function DashboardView({ reviewLog, loading }: { reviewLog: any[]; loading: boolean }) {
   const { data: reviewers } = useQuery({
     queryKey: ["reviewers"],
     queryFn: () => fetch("/api/settings/reviewers").then((r) => r.json()).catch(() => ({ data: [] })),
@@ -199,6 +203,13 @@ function DashboardView({ reviewLog }: { reviewLog: any[] }) {
         </div>
         <p className="text-muted-foreground mt-1">Upcoming reviews and compliance status</p>
       </div>
+
+      {loading && (
+        <div className="flex items-center gap-3 p-3 bg-[#FBBA16]/10 border border-[#FBBA16]/30 rounded-lg">
+          <div className="w-5 h-5 border-2 border-[#016268] border-t-transparent rounded-full animate-spin shrink-0" />
+          <span className="text-sm">Connecting to Snowflake and loading review data... retrying automatically.</span>
+        </div>
+      )}
 
       {/* Due Date Calendar */}
       <div>
@@ -489,7 +500,7 @@ function AuditExportView() {
   )
 }
 
-function ReviewLogView({ reviewLog }: { reviewLog: any[] }) {
+function ReviewLogView({ reviewLog, loading }: { reviewLog: any[]; loading: boolean }) {
   function downloadEvidence(entry: any) {
     const evidence = entry.EVIDENCE_DATA
     if (!evidence) return
@@ -527,8 +538,18 @@ function ReviewLogView({ reviewLog }: { reviewLog: any[] }) {
 
       {reviewLog.length === 0 ? (
         <Card className="p-8 text-center">
-          <ClipboardCheck className="w-12 h-12 mx-auto text-muted-foreground mb-3" />
-          <p className="text-muted-foreground">No reviews completed yet. Start a review from the Dashboard.</p>
+          {loading ? (
+            <>
+              <div className="w-12 h-12 mx-auto mb-3 border-4 border-[#016268] border-t-transparent rounded-full animate-spin" />
+              <p className="text-muted-foreground">Connecting to Snowflake... This may take a moment on your network.</p>
+              <p className="text-xs text-muted-foreground mt-2">Retrying automatically. The connection is intermittent from localhost.</p>
+            </>
+          ) : (
+            <>
+              <ClipboardCheck className="w-12 h-12 mx-auto text-muted-foreground mb-3" />
+              <p className="text-muted-foreground">No reviews completed yet. Start a review from the Dashboard.</p>
+            </>
+          )}
         </Card>
       ) : (
         <div className="space-y-3">
