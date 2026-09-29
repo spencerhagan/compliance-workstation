@@ -21,12 +21,9 @@ function normalizeRow(row: Record<string, unknown>): Record<string, unknown> {
   return out
 }
 
-export async function GET(
-  request: NextRequest,
-  { params }: { params: Promise<{ control: string }> },
-) {
+export async function GET(request: NextRequest) {
   try {
-    const { control } = await params
+    const control = request.nextUrl.searchParams.get("control") ?? ""
     const type = request.nextUrl.searchParams.get("type") ?? "audit"
 
     let sql: string | undefined

@@ -375,7 +375,7 @@ function DashboardView({ reviewLog, loading }: { reviewLog: any[]; loading: bool
                       )}
                     </td>
                     <td className="px-4 py-3 text-center">
-                      <Link href={`/review?type=${row.type}`}>
+                      <Link href={`/review/${row.type}`}>
                         <Button size="sm" variant={row.status === "Completed" ? "outline" : "default"}
                           className={row.status === "Completed" ? "" : "bg-[#016268] hover:bg-[#016268]/90"}
                         >

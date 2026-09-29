@@ -118,7 +118,7 @@ export default function AuditPage() {
   const runQuery = useCallback(async (controlId: string) => {
     setLoading(controlId)
     try {
-      const res = await fetch(`/api/audit/${controlId}?type=audit&control=${controlId}`)
+      const res = await fetch(`/api/audit?type=audit&control=${controlId}`)
       const json = await res.json()
       setSections((prev) => ({
         ...prev,

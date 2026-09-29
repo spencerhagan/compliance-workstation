@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useCallback } from "react"
-import { useParams, useRouter } from "next/navigation"
+import { useSearchParams, useRouter } from "next/navigation"
 import { useQuery } from "@tanstack/react-query"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -47,9 +47,9 @@ function downloadCsv(data: Record<string, any>[], filename: string) {
 }
 
 export default function ReviewPage() {
-  const params = useParams()
+  const searchParams = useSearchParams()
   const router = useRouter()
-  const reviewType = params.type as string
+  const reviewType = searchParams.get("type") || ""
 
   const reviewMeta = REVIEW_TYPES.find((r) => r.id === reviewType)
 
@@ -72,7 +72,7 @@ export default function ReviewPage() {
   const runQuery = useCallback(async () => {
     setStatus("loading")
     try {
-      const res = await fetch(`/api/audit/${reviewType}?type=review&control=${reviewType}`)
+      const res = await fetch(`/api/audit?type=review&control=${reviewType}`)
       const json = await res.json()
       setData(json.data || [])
       setStatus("in_review")
