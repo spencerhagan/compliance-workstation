@@ -6,8 +6,8 @@ export const AUDIT_QUERIES = {
   "as1": `
     SELECT
       p.NAME AS POLICY_NAME,
-      p.DATABASE_NAME,
-      p.SCHEMA_NAME,
+      p.DATABASE AS DATABASE_NAME,
+      p.SCHEMA AS SCHEMA_NAME,
       p.OWNER,
       p.PASSWORD_MIN_LENGTH,
       p.PASSWORD_MAX_LENGTH,
