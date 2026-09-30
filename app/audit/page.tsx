@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useCallback } from "react"
+import { useState, useCallback, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import { useQuery } from "@tanstack/react-query"
 import { Card } from "@/components/ui/card"
@@ -101,6 +101,14 @@ function getReviewedData(state: SectionState): Record<string, any>[] {
 }
 
 export default function AuditPage() {
+  return (
+    <Suspense fallback={<div className="p-8 text-center text-muted-foreground">Loading audit workspace...</div>}>
+      <AuditPageInner />
+    </Suspense>
+  )
+}
+
+function AuditPageInner() {
   const searchParams = useSearchParams()
   const initialTab = searchParams.get("tab") || "as1"
   const [activeTab, setActiveTab] = useState(initialTab)

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useCallback } from "react"
+import { useState, useCallback, Suspense } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
 import { useQuery } from "@tanstack/react-query"
 import { Card } from "@/components/ui/card"
@@ -47,6 +47,14 @@ function downloadCsv(data: Record<string, any>[], filename: string) {
 }
 
 export default function ReviewPage() {
+  return (
+    <Suspense fallback={<div className="p-8 text-center text-muted-foreground">Loading review...</div>}>
+      <ReviewPageInner />
+    </Suspense>
+  )
+}
+
+function ReviewPageInner() {
   const searchParams = useSearchParams()
   const router = useRouter()
   const reviewType = searchParams.get("type") || ""
