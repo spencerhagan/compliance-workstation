@@ -1,5 +1,6 @@
 import { NextRequest } from "next/server"
 import { querySnowflake } from "@/lib/snowflake"
+import { getAuthContext } from "@/lib/auth"
 
 export const dynamic = "force-dynamic"
 
@@ -11,12 +12,24 @@ function toIso(val: unknown): string | null {
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json()
-    const { reviewId, approver, approverNotes } = body
+    const auth = await getAuthContext()
+    if (!auth.authorized) {
+      return Response.json({ error: "Not authorized" }, { status: 403 })
+    }
 
-    if (!reviewId || !approver) {
+    const body = await request.json()
+    const { reviewId, approverNotes, certificationAcknowledged } = body
+
+    if (!reviewId) {
       return Response.json(
-        { error: "Missing required fields: reviewId, approver" },
+        { error: "Missing required field: reviewId" },
+        { status: 400 },
+      )
+    }
+
+    if (!certificationAcknowledged) {
+      return Response.json(
+        { error: "Certification must be acknowledged before approving" },
         { status: 400 },
       )
     }
@@ -42,9 +55,9 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    if (row.REVIEWER === approver) {
+    if (row.REVIEWER === auth.user) {
       return Response.json(
-        { error: "Approver cannot be the same person as the reviewer" },
+        { error: "Approver cannot be the same person as the reviewer (separation of duties)" },
         { status: 400 },
       )
     }
@@ -59,14 +72,14 @@ export async function POST(request: NextRequest) {
     `
 
     await querySnowflake(sql, {
-      binds: [approver, approverNotes ?? null, reviewId],
+      binds: [auth.user, approverNotes ?? null, reviewId],
     })
 
     return Response.json({
       success: true,
       message: "Review approved",
       reviewId,
-      approver,
+      approver: auth.user,
       status: "COMPLETED",
       approvedAt: toIso(new Date()),
     })

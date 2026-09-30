@@ -114,10 +114,10 @@ function ReviewPageInner() {
         body: JSON.stringify({
           reviewType,
           reviewPeriod: period,
-          reviewer: accountInfo?.user || "UNKNOWN",
           reviewerNotes: signOffNotes,
           evidenceData: reviewed.slice(0, 100),
           rowCount: reviewed.length,
+          account: "TBOM_MAIN",
         }),
       })
       router.push("/?section=review-log")

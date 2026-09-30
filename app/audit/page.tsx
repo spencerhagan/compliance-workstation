@@ -314,7 +314,7 @@ function AuditPageInner() {
                 <Button
                   onClick={() => runQuery(activeTab)}
                   disabled={loading === activeTab}
-                  variant="outline"
+                  className="bg-[#0F2D4E] hover:bg-[#0F2D4E]/90 text-white"
                 >
                   <Play className="w-4 h-4 mr-1" />
                   {loading === activeTab ? "Running..." : "Generate"}

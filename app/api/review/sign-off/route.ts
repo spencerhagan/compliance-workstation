@@ -1,5 +1,6 @@
 import { NextRequest } from "next/server"
 import { querySnowflake } from "@/lib/snowflake"
+import { getAuthContext } from "@/lib/auth"
 
 export const dynamic = "force-dynamic"
 
@@ -11,31 +12,37 @@ function toIso(val: unknown): string | null {
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json()
-    const { reviewType, reviewPeriod, reviewer, reviewerNotes, evidenceData, rowCount } = body
+    const auth = await getAuthContext()
+    if (!auth.authorized) {
+      return Response.json({ error: "Not authorized" }, { status: 403 })
+    }
 
-    if (!reviewType || !reviewPeriod || !reviewer) {
+    const body = await request.json()
+    const { reviewType, reviewPeriod, reviewerNotes, evidenceData, rowCount, account } = body
+
+    if (!reviewType || !reviewPeriod) {
       return Response.json(
-        { error: "Missing required fields: reviewType, reviewPeriod, reviewer" },
+        { error: "Missing required fields: reviewType, reviewPeriod" },
         { status: 400 },
       )
     }
 
     const sql = `
       INSERT INTO AUDIT_APP_DB.APP_SCHEMA.REVIEW_LOG
-        (REVIEW_TYPE, REVIEW_PERIOD, REVIEWER, REVIEWER_NOTES, EVIDENCE_DATA, ROW_COUNT, STATUS, REVIEWED_AT, CREATED_AT)
+        (REVIEW_TYPE, REVIEW_PERIOD, REVIEWER, REVIEWER_NOTES, EVIDENCE_DATA, ROW_COUNT, STATUS, REVIEWED_AT, CREATED_AT, ACCOUNT)
       VALUES
-        (?, ?, ?, ?, ?, ?, 'PENDING_APPROVAL', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())
+        (?, ?, ?, ?, ?, ?, 'PENDING_APPROVAL', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), ?)
     `
 
     await querySnowflake(sql, {
       binds: [
         reviewType,
         reviewPeriod,
-        reviewer,
+        auth.user,
         reviewerNotes ?? null,
         evidenceData ? JSON.stringify(evidenceData) : null,
         rowCount ?? 0,
+        account ?? 'TBOM_MAIN',
       ],
     })
 
@@ -44,7 +51,7 @@ export async function POST(request: NextRequest) {
       message: "Review signed off, pending approval",
       reviewType,
       reviewPeriod,
-      reviewer,
+      reviewer: auth.user,
       status: "PENDING_APPROVAL",
       signedAt: toIso(new Date()),
     })

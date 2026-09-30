@@ -1,4 +1,5 @@
 import { querySnowflake } from "@/lib/snowflake"
+import { getAuthContext } from "@/lib/auth"
 
 export const dynamic = "force-dynamic"
 
@@ -18,6 +19,8 @@ export async function GET() {
     const acctName = (row.ACCOUNT_NAME ?? "").toString().toUpperCase()
     const isMain = acct === "OWB85847" || acctName === "SRB23980"
 
+    const auth = await getAuthContext()
+
     return Response.json({
       account: row.ACCOUNT ?? null,
       accountName: row.ACCOUNT_NAME ?? null,
@@ -25,6 +28,9 @@ export async function GET() {
       role: row.ROLE ?? null,
       region: row.REGION ?? null,
       isMainAccount: isMain,
+      isOrgAdmin: auth.isOrgAdmin,
+      authorized: auth.authorized,
+      userAccounts: auth.accounts,
       generatedAt: toIso(new Date()),
     })
   } catch (err) {
